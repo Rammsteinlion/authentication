@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "allowJs": true,
+    "typeRoots": ["node_modules/@types", "./typings"],
+    "target": "es2015"
+  },
   "files": [],
   "references": [
     {

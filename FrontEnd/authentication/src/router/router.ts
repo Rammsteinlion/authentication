@@ -29,12 +29,19 @@ const router = createRouter({
   ],
 });
 
-router.beforeEach((to, from, next) => {
-  // Verificar si la ruta requiere autenticación y el usuario no está autenticado
-  if (to.meta.requiresAuth && !store.state.is_authenticated) {
-    next("/login"); // Redirigir al usuario al login
+router.beforeEach(async (to, from, next) => {
+  // Si la ruta requiere autenticación
+  if (to.meta.requiresAuth) {
+    // Si el usuario está autenticado, continuar con la navegación
+    if (store.state.is_authenticated) {
+      next();
+    } else {
+      // Si el usuario no está autenticado, redirigir al inicio de sesión
+      next("/login");
+    }
   } else {
-    next(); // Permitir continuar con la navegación
+    // Si la ruta no requiere autenticación, permitir la navegación
+    next();
   }
 });
 
