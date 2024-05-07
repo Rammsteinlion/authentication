@@ -10,7 +10,7 @@ class Controller{
         
     }
 
-    function loadModel($model):void{
+    public function loadModel($model):void{
         $url = 'models/'.$model.'model.php';
 
         if(file_exists($url)){
