@@ -3,8 +3,10 @@
 namespace App\Controllers;
 
 use App\Config\ResponseHttp;
-use Dotenv\Validator as DotenvValidator;
+use App\Config\Security;
+use App\Models\UserModel;
 use Rakit\Validation\Validator;
+
 
 class UserController
 {
@@ -34,25 +36,51 @@ class UserController
     }
 
 
-    final public static function post(string $endPoint): void
+    final public function postSave(string $endPoint): void
     {
 
         if (self::$method == 'post' && $endPoint == self::$route) {
-            
-       
-            $validator = new Validator;
 
+
+            $validator = new Validator;
             $validation = $validator->validate(self::$data, [
-                'name' => 'required|regex:/^[a-zA-Z ]+$/',
-                'username' => 'required|regex:/^[^\s]+$/',
+                'name' => 'required|regex:/^[a-zA-Z\s]+$/',
+                'username' => 'required|regex:/^[a-zA-Z\s]+$/',
                 'email' => 'required|email',
+                'rol'   => 'required|numeric|min:1|regex:/^[12]+$/',
                 'password' => 'required|min:8',
+                'confirmPassword'    => 'required|same:password'
             ]);
 
-            if($validation->fails()){
+
+            if ($validation->fails()) {
+                $errors = $validation->errors()->all();
+                foreach ($errors as $error) {
+                    echo $error . "<br>";
+                }
                 echo json_encode(ResponseHttp::status400('Error en los campos'));
-            }else{
+            } else {
+                new UserModel(self::$data);
+                echo json_encode(UserModel::postSave());
             }
+        }
+    }
+
+    final public function getLogin(string $endPoint): void
+    {
+        if (self::$method == 'post' && $endPoint == self::$route) {
+            $username = (self::$params[1]);
+            $password = (self::$params[2]);
+
+            if (empty($username) || empty($password)) {
+                echo json_encode(ResponseHttp::status400('Todos los campos son necesarios'));
+            } else {
+                UserModel::setUsername($username);
+                UserModel::setPassword($password);
+                echo json_encode(UserModel::Login());
+            }
+        } else {
+            echo json_encode(ResponseHttp::status400('Todos los campos son necesarios'));
         }
     }
 }

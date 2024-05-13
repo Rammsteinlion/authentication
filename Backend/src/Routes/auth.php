@@ -1,19 +1,21 @@
 <?php
 
-use App\Config\Security;
-use App\DB\ConnectionDB;
+use App\Config\ResponseHttp;
+use App\Controllers\UserController;
 
-ConnectionDB::getConnection();
-echo json_encode(Security::createTokenJwt(Security::secretKey(), ['hola']));
+$method = strtolower($_SERVER['REQUEST_METHOD']);
+$route = isset($_GET['route']) ? $_GET['route'] : null;
+$params = explode('/', $route);
+$data = json_decode(file_get_contents("php://input"), true);
+$headers = getallheaders();
 
-// $pass = Security::createPassowrd('ELKIN');
 
-// if(Security::validatePassword('ELKIN', $pass)){
-//     echo json_encode('TODO ESTA BIEN');
-// }else{
-//     echo json_encode('ALGO SALIO MAL');
-// }
 
-// echo json_encode(Security::createPassowrd('ELKIN'));
+$app = new UserController($method,$route,$params,$data,$headers);
+
+
+$app->getLogin("auth/{$params[1]}/{$params[2]}/");
+
+// echo json_encode(ResponseHttp::status404());
 
 ?>

@@ -1,389 +1,515 @@
-[09-May-2024 03:16:13 UTC] No existe la ruta
-[08-May-2024 22:18:00 America/Bogota] No existe la ruta
-[08-May-2024 22:29:59 America/Bogota] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Failed to parse dotenv file. Encountered unexpected whitespace at ["9$@Jl#0&mG*";]. in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\graham-campbell\result-type\src\Error.php(119): Dotenv\Parser\Parser::Dotenv\Parser\{closure}('Encountered une...')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php(31): GrahamCampbell\ResultType\Error->mapError(Object(Closure))
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Parser\Parser->parse('SECRET_KEY = "9...')
-#3 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Config\Security.php(12): Dotenv\Dotenv->load()
-#4 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php(5): App\Config\Security::secretKey()
-#5 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#6 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php on line 30
-[08-May-2024 22:53:09 America/Bogota] La contraseña es incorrecta
-[10-May-2024 22:28:16 America/Bogota] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Failed to parse dotenv file. Encountered unexpected whitespace at ["3306"n]. in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\graham-campbell\result-type\src\Error.php(119): Dotenv\Parser\Parser::Dotenv\Parser\{closure}('Encountered une...')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php(31): GrahamCampbell\ResultType\Error->mapError(Object(Closure))
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Parser\Parser->parse('SECRET_KEY = "9...')
-#3 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php(8): Dotenv\Dotenv->load()
-#4 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php(8): require('C:\\wamp64\\www\\p...')
-#5 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php(576): include('C:\\wamp64\\www\\p...')
-#6 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
-#7 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php(6): Composer\Autoload\ClassLoader->loadClass('App\\DB\\Connecti...')
-#8 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#9 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php on line 30
-[10-May-2024 22:28:25 America/Bogota] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Failed to parse dotenv file. Encountered unexpected whitespace at ["3306"n]. in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\graham-campbell\result-type\src\Error.php(119): Dotenv\Parser\Parser::Dotenv\Parser\{closure}('Encountered une...')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php(31): GrahamCampbell\ResultType\Error->mapError(Object(Closure))
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Parser\Parser->parse('SECRET_KEY = "9...')
-#3 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php(8): Dotenv\Dotenv->load()
-#4 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php(8): require('C:\\wamp64\\www\\p...')
-#5 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php(576): include('C:\\wamp64\\www\\p...')
-#6 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
-#7 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php(6): Composer\Autoload\ClassLoader->loadClass('App\\DB\\Connecti...')
-#8 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#9 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php on line 30
-[10-May-2024 22:29:43 America/Bogota] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidFileException: Failed to parse dotenv file. Encountered unexpected whitespace at ["3306"n]. in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\graham-campbell\result-type\src\Error.php(119): Dotenv\Parser\Parser::Dotenv\Parser\{closure}('Encountered une...')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php(31): GrahamCampbell\ResultType\Error->mapError(Object(Closure))
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Parser\Parser->parse('SECRET_KEY = "9...')
-#3 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php(8): Dotenv\Dotenv->load()
-#4 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php(8): require('C:\\wamp64\\www\\p...')
-#5 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php(576): include('C:\\wamp64\\www\\p...')
-#6 C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\p...')
-#7 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php(6): Composer\Autoload\ClassLoader->loadClass('App\\DB\\Connecti...')
-#8 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#9 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\vlucas\phpdotenv\src\Parser\Parser.php on line 30
-[10-May-2024 22:30:09 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
-[10-May-2024 22:30:09 America/Bogota] PHP Stack trace:
-[10-May-2024 22:30:09 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 22:30:09 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 22:30:09 America/Bogota] PHP   3. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:6
-[10-May-2024 22:30:09 America/Bogota] PHP   4. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\DB\\ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
-[10-May-2024 22:30:09 America/Bogota] PHP   5. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
-[10-May-2024 22:30:09 America/Bogota] PHP   6. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
-[10-May-2024 22:30:09 America/Bogota] Conexion Exitosa
-[10-May-2024 23:21:36 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:21:36 America/Bogota] PHP Stack trace:
-[10-May-2024 23:21:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:21:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:21:36 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:21:36 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(14): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 30
-[10-May-2024 23:21:41 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:21:41 America/Bogota] PHP Stack trace:
-[10-May-2024 23:21:41 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:21:41 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:21:41 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:21:41 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(14): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 30
-[10-May-2024 23:21:50 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:21:50 America/Bogota] PHP Stack trace:
-[10-May-2024 23:21:50 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:21:50 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:21:50 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:21:50 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(14): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 30
-[10-May-2024 23:22:27 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:22:27 America/Bogota] PHP Stack trace:
-[10-May-2024 23:22:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:22:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:22:27 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:22:27 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:30
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(14): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 30
-[10-May-2024 23:23:05 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:23:05 America/Bogota] PHP Stack trace:
-[10-May-2024 23:23:05 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:23:05 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:23:05 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:23:05 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(14): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:23:07 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:23:07 America/Bogota] PHP Stack trace:
-[10-May-2024 23:23:07 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:23:07 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:23:07 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:23:07 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(14): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:23:26 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:23:26 America/Bogota] PHP Stack trace:
-[10-May-2024 23:23:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:23:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:23:26 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:23:59 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:23:59 America/Bogota] PHP Stack trace:
-[10-May-2024 23:23:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:23:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:23:59 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:24:00 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:24:00 America/Bogota] PHP Stack trace:
-[10-May-2024 23:24:00 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:24:00 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:24:00 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:24:22 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:24:22 America/Bogota] PHP Stack trace:
-[10-May-2024 23:24:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:24:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:24:22 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:24:23 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:24:23 America/Bogota] PHP Stack trace:
-[10-May-2024 23:24:23 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:24:23 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:24:23 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:24:33 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:24:33 America/Bogota] PHP Stack trace:
-[10-May-2024 23:24:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:24:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:24:33 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:24:41 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:24:41 America/Bogota] PHP Stack trace:
-[10-May-2024 23:24:41 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:24:41 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:24:41 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:24:41 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 12
-[10-May-2024 23:24:41 America/Bogota] PHP Stack trace:
-[10-May-2024 23:24:41 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:24:41 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:28 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:25:28 America/Bogota] PHP Stack trace:
-[10-May-2024 23:25:28 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:25:28 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:28 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:25:28 America/Bogota] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(15): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:25:29 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:25:29 America/Bogota] PHP Stack trace:
-[10-May-2024 23:25:29 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:25:29 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:29 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:25:29 America/Bogota] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(15): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:25:42 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:25:42 America/Bogota] PHP Stack trace:
-[10-May-2024 23:25:42 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:25:42 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:42 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:25:42 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(15): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:25:43 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:25:43 America/Bogota] PHP Stack trace:
-[10-May-2024 23:25:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:25:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:43 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:25:43 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(15): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:25:50 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:25:50 America/Bogota] PHP Stack trace:
-[10-May-2024 23:25:50 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:25:50 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:50 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:25:50 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(15): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:25:51 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:25:51 America/Bogota] PHP Stack trace:
-[10-May-2024 23:25:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:25:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:25:51 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:25:51 America/Bogota] PHP Fatal error:  Uncaught Error: Access to undeclared static property App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:29
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(15): App\Controllers\UserController::post('user/')
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#2 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 29
-[10-May-2024 23:28:11 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:28:11 America/Bogota] PHP Stack trace:
-[10-May-2024 23:28:11 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:28:11 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:28:11 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:28:12 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:28:12 America/Bogota] PHP Stack trace:
-[10-May-2024 23:28:12 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:28:12 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:28:12 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:28:51 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:28:51 America/Bogota] PHP Stack trace:
-[10-May-2024 23:28:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:28:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:28:51 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:28:53 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:28:53 America/Bogota] PHP Stack trace:
-[10-May-2024 23:28:53 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:28:53 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:28:53 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:46:27 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:46:27 America/Bogota] PHP Stack trace:
-[10-May-2024 23:46:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:46:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:46:27 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:46:36 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:46:36 America/Bogota] PHP Stack trace:
-[10-May-2024 23:46:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:46:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:46:36 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:47:09 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:47:09 America/Bogota] PHP Stack trace:
-[10-May-2024 23:47:09 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:47:09 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:47:09 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:49:26 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:49:26 America/Bogota] PHP Stack trace:
-[10-May-2024 23:49:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:49:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:49:26 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:49:27 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:49:27 America/Bogota] PHP Stack trace:
-[10-May-2024 23:49:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:49:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:49:27 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:55:03 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:55:03 America/Bogota] PHP Stack trace:
-[10-May-2024 23:55:03 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:55:03 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:55:03 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:55:42 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:55:42 America/Bogota] PHP Stack trace:
-[10-May-2024 23:55:42 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:55:42 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:55:42 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:55:43 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:55:43 America/Bogota] PHP Stack trace:
-[10-May-2024 23:55:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:55:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:55:43 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:56:05 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:56:05 America/Bogota] PHP Stack trace:
-[10-May-2024 23:56:05 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:56:05 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:56:05 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[10-May-2024 23:56:06 America/Bogota] PHP Warning:  file_get_contents(php:://input): Failed to open stream: No such file or directory in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php on line 9
-[10-May-2024 23:56:06 America/Bogota] PHP Stack trace:
-[10-May-2024 23:56:06 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[10-May-2024 23:56:06 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[10-May-2024 23:56:06 America/Bogota] PHP   3. file_get_contents($filename = 'php:://input') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:9
-[11-May-2024 00:22:54 America/Bogota] No existe la ruta
-[11-May-2024 00:22:55 America/Bogota] No existe la ruta
-[11-May-2024 00:36:37 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:36:37 America/Bogota] PHP Stack trace:
-[11-May-2024 00:36:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:36:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:36:37 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:36:38 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:36:38 America/Bogota] PHP Stack trace:
-[11-May-2024 00:36:38 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:36:38 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:36:38 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:36:40 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:36:40 America/Bogota] PHP Stack trace:
-[11-May-2024 00:36:40 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:36:40 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:36:40 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:36:40 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:36:40 America/Bogota] PHP Stack trace:
-[11-May-2024 00:36:40 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:36:40 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:36:40 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:36:41 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:36:41 America/Bogota] PHP Stack trace:
-[11-May-2024 00:36:41 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:36:41 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:36:41 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:37:00 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:37:00 America/Bogota] PHP Stack trace:
-[11-May-2024 00:37:00 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:37:00 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:37:00 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:37:01 America/Bogota] PHP Warning:  foreach() argument must be of type array|object, null given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 40
-[11-May-2024 00:37:01 America/Bogota] PHP Stack trace:
-[11-May-2024 00:37:01 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:37:01 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:37:01 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:53:16 America/Bogota] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:44
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php(44): json_decode(Array)
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(16): App\Controllers\UserController::post('user/')
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#3 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 44
-[11-May-2024 00:53:17 America/Bogota] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:44
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php(44): json_decode(Array)
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(16): App\Controllers\UserController::post('user/')
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#3 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 44
-[11-May-2024 00:53:35 America/Bogota] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:44
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php(44): json_decode(Array)
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(16): App\Controllers\UserController::post('user/')
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#3 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 44
-[11-May-2024 00:53:36 America/Bogota] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:44
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php(44): json_decode(Array)
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(16): App\Controllers\UserController::post('user/')
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#3 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 44
-[11-May-2024 00:53:39 America/Bogota] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:44
-Stack trace:
-#0 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php(44): json_decode(Array)
-#1 C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php(16): App\Controllers\UserController::post('user/')
-#2 C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php(22): require('C:\\wamp64\\www\\p...')
-#3 {main}
-  thrown in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 44
-[11-May-2024 00:54:54 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 42
-[11-May-2024 00:54:54 America/Bogota] PHP Stack trace:
-[11-May-2024 00:54:54 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:54:54 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:54:54 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:57:56 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 53
-[11-May-2024 00:57:56 America/Bogota] PHP Stack trace:
-[11-May-2024 00:57:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:57:56 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:57:56 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
-[11-May-2024 00:57:57 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 53
-[11-May-2024 00:57:57 America/Bogota] PHP Stack trace:
-[11-May-2024 00:57:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
-[11-May-2024 00:57:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
-[11-May-2024 00:57:57 America/Bogota] PHP   3. App\Controllers\UserController::post($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:56:22 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 08:56:22 America/Bogota] PHP Stack trace:
+[13-May-2024 08:56:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 08:56:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 08:56:22 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:56:22 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 08:56:22 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:56:22 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:56:22 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 08:56:22 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:56:22 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:56:22 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 08:56:22 America/Bogota] Conexion Exitosa
+[13-May-2024 08:57:48 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 08:57:48 America/Bogota] PHP Stack trace:
+[13-May-2024 08:57:48 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 08:57:48 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 08:57:48 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:57:48 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 08:57:48 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:57:48 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:57:48 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 08:57:48 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:57:48 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:57:48 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 08:57:48 America/Bogota] Conexion Exitosa
+[13-May-2024 08:58:37 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 08:58:37 America/Bogota] PHP Stack trace:
+[13-May-2024 08:58:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 08:58:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 08:58:37 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:58:37 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 08:58:37 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:58:37 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:58:37 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 08:58:37 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:58:37 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:58:37 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 08:58:37 America/Bogota] Conexion Exitosa
+[13-May-2024 08:59:22 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 08:59:22 America/Bogota] PHP Stack trace:
+[13-May-2024 08:59:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 08:59:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 08:59:22 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:59:22 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 08:59:22 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:59:22 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:59:22 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 08:59:22 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:59:22 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:59:22 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 08:59:22 America/Bogota] Conexion Exitosa
+[13-May-2024 08:59:23 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 08:59:23 America/Bogota] PHP Stack trace:
+[13-May-2024 08:59:23 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 08:59:23 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 08:59:23 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:59:23 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 08:59:23 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:59:23 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:59:23 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 08:59:23 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:59:23 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:59:23 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 08:59:23 America/Bogota] Conexion Exitosa
+[13-May-2024 08:59:58 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 08:59:58 America/Bogota] PHP Stack trace:
+[13-May-2024 08:59:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 08:59:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 08:59:58 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 08:59:58 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 08:59:58 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:59:58 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:59:58 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 08:59:58 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 08:59:58 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 08:59:58 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 08:59:58 America/Bogota] Conexion Exitosa
+[13-May-2024 08:59:58 America/Bogota] Conexion Exitosa
+[13-May-2024 09:04:51 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 09:04:51 America/Bogota] PHP Stack trace:
+[13-May-2024 09:04:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 09:04:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 09:04:51 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 09:04:51 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 09:04:51 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 09:04:51 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 09:04:51 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 09:04:51 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 09:04:51 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 09:04:51 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 09:04:51 America/Bogota] Conexion Exitosa
+[13-May-2024 09:04:51 America/Bogota] Conexion Exitosa
+[13-May-2024 09:05:12 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 09:05:12 America/Bogota] PHP Stack trace:
+[13-May-2024 09:05:12 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 09:05:12 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 09:05:12 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\user.php:16
+[13-May-2024 09:05:12 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:63
+[13-May-2024 09:05:12 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 09:05:12 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 09:05:12 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 09:05:12 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 09:05:12 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 09:05:12 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 09:05:12 America/Bogota] Conexion Exitosa
+[13-May-2024 09:05:12 America/Bogota] Conexion Exitosa
+[13-May-2024 09:05:12 America/Bogota] Conexion Exitosa
+[13-May-2024 17:22:26 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:22:26 America/Bogota] PHP Stack trace:
+[13-May-2024 17:22:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:22:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:22:26 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:22:26 America/Bogota] PHP Stack trace:
+[13-May-2024 17:22:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:22:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:22:26 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:22:26 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:22:26 America/Bogota] PHP Stack trace:
+[13-May-2024 17:22:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:22:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:22:26 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:22:33 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:22:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:22:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:22:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:22:33 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:22:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:22:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:22:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:22:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:22:33 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:22:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:22:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:22:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:22:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:25 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:23:25 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:25 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:25 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:25 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:25 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:25 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:25 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:27 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:23:27 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:27 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:27 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:27 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:27 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:27 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:27 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:28 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:23:28 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:28 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:28 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:28 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:28 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:28 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:28 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:28 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:28 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:28 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:28 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:28 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:28 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth///') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:59 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:59 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:23:59 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:23:59 America/Bogota] PHP Stack trace:
+[13-May-2024 17:23:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:23:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:23:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:24:00 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:24:00 America/Bogota] PHP Stack trace:
+[13-May-2024 17:24:00 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:24:00 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:24:00 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:24:00 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:24:00 America/Bogota] PHP Stack trace:
+[13-May-2024 17:24:00 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:24:00 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:24:00 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:16
+[13-May-2024 17:24:20 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:24:20 America/Bogota] PHP Stack trace:
+[13-May-2024 17:24:20 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:24:20 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:24:22 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php on line 16
+[13-May-2024 17:24:22 America/Bogota] PHP Stack trace:
+[13-May-2024 17:24:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:24:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:33 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:26:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:33 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:26:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:33 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$route as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:26:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:33 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$route in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:26:33 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:35 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:26:35 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:35 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:35 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:26:35 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:35 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:35 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$route as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:26:35 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:35 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:26:35 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$route in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:26:35 America/Bogota] PHP Stack trace:
+[13-May-2024 17:26:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:26:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:26:35 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:28:25 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:28:25 America/Bogota] PHP Stack trace:
+[13-May-2024 17:28:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:28:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:28:25 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:28:25 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:28:25 America/Bogota] PHP Stack trace:
+[13-May-2024 17:28:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:28:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:28:25 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:28:35 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:28:35 America/Bogota] PHP Stack trace:
+[13-May-2024 17:28:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:28:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:28:35 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:28:35 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:28:35 America/Bogota] PHP Stack trace:
+[13-May-2024 17:28:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:28:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:28:35 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:36 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:36 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:36 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:36 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:36 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:36 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:36 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:36 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:36 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:36 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:36 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:36 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:37 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:37 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:37 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:37 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:37 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:37 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:37 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:37 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:37 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:37 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:37 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:37 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:45 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:45 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:45 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:45 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:45 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:45 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:45 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:45 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:45 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:45 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:45 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:45 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:45 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:45 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:45 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:45 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:45 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:45 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:45 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:45 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:46 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:46 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:46 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:46 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:46 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:46 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:46 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:46 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:46 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:46 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:46 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:46 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:46 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:46 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:46 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:46 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:46 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:46 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:46 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:46 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:51 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:51 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:51 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:51 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:51 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:51 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:51 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:51 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:51 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:51 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:51 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:51 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:51 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:51 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:55 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:55 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:55 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:55 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:55 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:55 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:55 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:55 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:59 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:59 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:59 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 71
+[13-May-2024 17:29:59 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:59 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$method as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:59 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:29:59 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$method in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 72
+[13-May-2024 17:29:59 America/Bogota] PHP Stack trace:
+[13-May-2024 17:29:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:29:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:29:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:31:55 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:31:55 America/Bogota] PHP Stack trace:
+[13-May-2024 17:31:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:31:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:31:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:31:55 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:31:55 America/Bogota] PHP Stack trace:
+[13-May-2024 17:31:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:31:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:31:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:57 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:34:57 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:57 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:34:57 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:57 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:34:57 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:57 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 74
+[13-May-2024 17:34:57 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:57 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 74
+[13-May-2024 17:34:57 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:57 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 74
+[13-May-2024 17:34:57 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:58 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:34:58 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:58 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:58 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:34:58 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:58 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:58 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 73
+[13-May-2024 17:34:58 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:58 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:58 America/Bogota] PHP Notice:  Accessing static property App\Controllers\UserController::$params as non static in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 74
+[13-May-2024 17:34:58 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:58 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:58 America/Bogota] PHP Warning:  Undefined property: App\Controllers\UserController::$params in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 74
+[13-May-2024 17:34:58 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:58 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:34:58 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php on line 74
+[13-May-2024 17:34:58 America/Bogota] PHP Stack trace:
+[13-May-2024 17:34:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:34:58 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:34:58 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:45:38 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 17:45:38 America/Bogota] PHP Stack trace:
+[13-May-2024 17:45:38 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:45:38 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:45:38 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:45:38 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:78
+[13-May-2024 17:45:38 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 17:45:38 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 17:45:38 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 17:45:38 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 17:45:38 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 17:45:38 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 17:46:05 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 17:46:05 America/Bogota] PHP Stack trace:
+[13-May-2024 17:46:05 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:46:05 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:46:05 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/12345678/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:46:05 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:78
+[13-May-2024 17:46:05 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 17:46:05 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 17:46:05 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 17:46:05 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 17:46:05 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 17:46:05 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 17:46:05 America/Bogota] Conexion Exitosa
+[13-May-2024 17:47:53 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[13-May-2024 17:47:53 America/Bogota] PHP Stack trace:
+[13-May-2024 17:47:53 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[13-May-2024 17:47:53 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[13-May-2024 17:47:53 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/sasaa/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[13-May-2024 17:47:53 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:78
+[13-May-2024 17:47:53 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 17:47:53 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 17:47:53 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[13-May-2024 17:47:53 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[13-May-2024 17:47:53 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[13-May-2024 17:47:53 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[13-May-2024 17:47:53 America/Bogota] Conexion Exitosa
+[13-May-2024 17:47:53 America/Bogota] La contraseña es incorrecta
