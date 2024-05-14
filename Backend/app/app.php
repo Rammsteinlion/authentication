@@ -1,7 +1,5 @@
 <?php
 
-use App\Controller;
-
 class App
 {
 
