@@ -25,3 +25,5 @@ class Sql extends ConnectionDB
         }
     }
 }
+
+?>

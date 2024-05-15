@@ -60,3 +60,4 @@ class ResponseHttp
         return self::$message;
     }
 }
+

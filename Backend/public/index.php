@@ -30,3 +30,5 @@ if (isset($_GET['route'])) {
     echo (json_encode(ResponseHttp::status404()));
     exit;
 }
+
+

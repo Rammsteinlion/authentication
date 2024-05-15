@@ -513,3 +513,19 @@
 [13-May-2024 17:47:53 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
 [13-May-2024 17:47:53 America/Bogota] Conexion Exitosa
 [13-May-2024 17:47:53 America/Bogota] La contraseña es incorrecta
+[14-May-2024 19:23:09 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\dataDB.php on line 15
+[14-May-2024 19:23:09 America/Bogota] PHP Stack trace:
+[14-May-2024 19:23:09 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:0
+[14-May-2024 19:23:09 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\public\index.php:22
+[14-May-2024 19:23:09 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/sasaa/') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Routes\auth.php:17
+[14-May-2024 19:23:09 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Controllers\UserController.php:78
+[14-May-2024 19:23:09 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[14-May-2024 19:23:09 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[14-May-2024 19:23:09 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\authentication\Backend\src\Models\UserModel.php:10
+[14-May-2024 19:23:09 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:427
+[14-May-2024 19:23:09 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\authentication\Backend\vendor\composer\ClassLoader.php:576
+[14-May-2024 19:23:09 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\authentication\Backend\src\DB\ConnectionDB.php:8
+[14-May-2024 19:23:09 America/Bogota] Conexion Exitosa
+[14-May-2024 19:23:09 America/Bogota] La contraseña es incorrecta
+
+

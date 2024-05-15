@@ -18,3 +18,6 @@ $data = array(
 //druver de conexion;
 $host = 'mysql:host='.$data['IP'].';'.'port='.$data['port'].';'.'dbname='.$data['DB'];
 ConnectionDB::from($host,$data['user'], $data['password']);
+
+
+?>
