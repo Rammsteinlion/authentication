@@ -10,7 +10,6 @@ $data = json_decode(file_get_contents("php://input"), true);
 $headers = getallheaders();
 
 
-
 $app = new UserController($method,$route,$params,$data,$headers);
 
 
