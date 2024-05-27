@@ -5,7 +5,9 @@ use App\Config\ResponseHttp;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
+ResponseHttp::headerHttpDev($_SERVER['REQUEST_METHOD']);
 ErrorLog::activateErrorLog();
+
 
 if (isset($_GET['route'])) {
     $url = explode('/', $_GET['route']);
