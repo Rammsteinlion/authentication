@@ -2,12 +2,12 @@
 import { reactive, onMounted } from "vue";
 import store from "@/store/store";
 import TaskList from "@/components/TaskList.vue";
-import {getTaskService} from '@/services';
+import {getTaskService,getDataTask} from '@/services';
 
 const params = reactive<{ data:{} }>({ data: {} });
 
 onMounted(() =>{
-  onGetTask();
+  // onGetTask();
 })
 
 const onAddTask = (event: any) => {
@@ -23,6 +23,11 @@ const onGetTask = async():Promise<void> =>{
   const getTask = await getTaskService();
   console.log(getTask);
   
+}
+
+const clearDataTask = async():Promise<void> =>{
+  const getTask = await getDataTask();
+  console.log(getTask);
 }
 
 </script>
@@ -51,7 +56,7 @@ const onGetTask = async():Promise<void> =>{
       </div>
       <div class="footer">
         <span>You have <span class="pendingTasks"></span> pending tasks</span>
-        <button>Clear All</button>
+        <button @click="clearDataTask">Clear All</button>
       </div>
     </div>
   </div>
