@@ -3,6 +3,7 @@
 use App\Config\ErrorLog;
 use App\Config\ResponseHttp;
 
+
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 ResponseHttp::headerHttpDev($_SERVER['REQUEST_METHOD']);

@@ -4,71 +4,96 @@ namespace App\Models;
 
 use App\DB\ConnectionDB;
 
-class TaskModel extends ConnectionDB {
+class TaskModel extends ConnectionDB
+{
     private static int $task_id;
+    private static int $user_id;
     private static string $category_id;
     private static string $description;
     private static string $status;
+    private static string $created_at;
+    private static string $updated_at;
 
 
     public function __construct(array $data)
     {
-        echo('DATA');
-        print_r($data);
-        exit();
-        
+        print_r(self::$data);
+        die();
     }
 
-    // Getter para task_id
-    final public static function getTaskId(): int {
+    public static function getTaskId(): int
+    {
         return self::$task_id;
     }
 
-    // Setter para task_id
-    final public static function setTaskId(int $task_id): void {
+    public static function setTaskId(int $task_id): void
+    {
         self::$task_id = $task_id;
     }
 
-    // Getter para category_id
-    final public static function getCategoryId(): string {
+    public static function getUserId(): int
+    {
+        return self::$user_id;
+    }
+
+    public static function setUserId(int $user_id): void
+    {
+        self::$user_id = $user_id;
+    }
+
+    public static function getCategoryId(): string
+    {
         return self::$category_id;
     }
 
-    // Setter para category_id
-    final public static function setCategoryId(string $category_id): void {
+    public static function setCategoryId(string $category_id): void
+    {
         self::$category_id = $category_id;
     }
 
-    // Getter para description
-    final public static function getDescription(): string {
+    public static function getDescription(): string
+    {
         return self::$description;
     }
 
-    // Setter para description
-    final public static function setDescription(string $description): void {
+    public static function setDescription(string $description): void
+    {
         self::$description = $description;
     }
 
-    // Getter para status
-    final public static function getStatus(): string {
+    public static function getStatus(): string
+    {
         return self::$status;
     }
 
-    // Setter para status
-    final public static function setStatus(string $status): void {
+    public static function setStatus(string $status): void
+    {
         self::$status = $status;
     }
 
-
-    final public static function postSaveTask():void
+    public static function getCreatedAt(): string
     {
-    
-
+        return self::$created_at;
     }
 
+    public static function setCreatedAt(string $created_at): void
+    {
+        self::$created_at = $created_at;
+    }
+
+    public static function getUpdatedAt(): string
+    {
+        return self::$updated_at;
+    }
+
+    public static function setUpdatedAt(string $updated_at): void
+    {
+        self::$updated_at = $updated_at;
+    }
+
+
+    final public static function postSaveTask(): void
+    {
+        echo('donde se guardara todo TaskSave');
+    }
 }
-
-
-
-?>
-

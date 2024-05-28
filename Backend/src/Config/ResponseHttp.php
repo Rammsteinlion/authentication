@@ -60,45 +60,93 @@ class ResponseHttp
         return self::$message;
     }
 
+
     final public static function headerHttpDev($method): void
     {
-        echo('HOLA');
-        die();
-        if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-            http_response_code(200);
-            exit();
-        }
-
-        //dominios permitidos
-        $allowedOrigins = array(
-            'http://localhost:5173',
-            'http://localhost:5174/',
-            'http://dominio2.com',
-        );
-
         // Detectar el origen de la solicitud
         $clientIP = $_SERVER['REMOTE_ADDR'];
         $origin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : null;
-        var_dump($clientIP);
-        exit();
-        error_log("Request from Origin: " . $origin);
-        // Verificar si el origen de la solicitud está en la lista de dominios permitidos
-        if ($origin && in_array($origin, $allowedOrigins)) {
-            // Permitir solicitudes desde el origen permitido
-            header("Access-Control-Allow-Origin: " . $origin);
+
+        // Dominios e IPs permitidos
+        $allowedOrigins = array(
+            'http://localhost:5173',
+            'http://localhost:5174',
+            'http://dominio2.com'
+        );
+
+        $allowedIPs = array(
+            '127.0.0.1', 
+            '::1', 
+            '192.168.1.1', 
+        );
+
+        // Validar el origen permitido
+        if (in_array($origin, $allowedOrigins) || in_array($clientIP, $allowedIPs)) {
+            header("Access-Control-Allow-Origin: $origin");
         } else {
-            // Devolver un error si el origen no está permitido
-            http_response_code(403);
-            echo json_encode(array(
-                "error" => "Origin not allowed",
-                "status" => http_response_code(403)
-            ));
-            exit();
+            header("HTTP/1.1 403 Forbidden");
+            exit;
         }
 
-        // Permitir los métodos GET, POST, OPTIONS
-        header("Access-Control-Allow-Methods: GET,PUT,POST,PATCH,DELETE");
-        // Permitir ciertos encabezados en las solicitudes
+        // Permitir todos los métodos y encabezados
+        header("Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE,");
         header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     }
+
+
+
+
+
+    // final public static function headerHttpDev($method): void
+    // {
+    //     echo('HOLA');
+    //     die();
+    //     // Manejo de preflight (solicitudes OPTIONS)
+    //     if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    //         http_response_code(200);
+    //         header("Access-Control-Allow-Methods: GET, PUT, POST, PATCH, DELETE");
+    //         header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+    //         exit();
+    //     }
+
+    //     //dominios permitidos
+    //     $allowedOrigins = array(
+    //         'http://localhost:5173',
+    //         'http://localhost:5174/',
+    //         'http://dominio2.com',
+    //     );
+
+    //     $allowedIPs = array(
+    //         '127.0.0.1',
+    //         '::1',
+    //         '192.168.1.1',
+    //     );
+
+
+    //     // Detectar el origen de la solicitud
+    //     $clientIP = $_SERVER['REMOTE_ADDR'];
+    //     $origin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : null;
+    //     error_log("Request from Origin: " . $origin . " and IP: " . $clientIP);
+    //     var_dump($clientIP, 'UNO');
+    //     exit();
+    //     error_log("Request from Origin: " . $origin);
+    //     // Verificar si el origen de la solicitud está en la lista de dominios permitidos
+    //     if ($origin && in_array($origin, $allowedOrigins)) {
+    //         // Permitir solicitudes desde el origen permitido
+    //         header("Access-Control-Allow-Origin: " . $origin);
+    //     } else {
+    //         // Devolver un error si el origen no está permitido
+    //         http_response_code(403);
+    //         echo json_encode(array(
+    //             "error" => "Origin not allowed",
+    //             "status" => http_response_code(403)
+    //         ));
+    //         exit();
+    //     }
+
+    //     // Permitir los métodos GET, POST, OPTIONS
+    //     header("Access-Control-Allow-Methods: GET,PUT,POST,PATCH,DELETE");
+    //     // Permitir ciertos encabezados en las solicitudes
+    //     header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+    // }
 }
