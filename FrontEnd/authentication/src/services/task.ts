@@ -1,28 +1,50 @@
 import { http } from "@/util";
+import axios from "axios";
 
 export const getTaskService = async () => {
-    return new Promise((resolve, reject) =>{
-        setTimeout(async() =>{
-            try {
-                const response = await http.get('');
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        }, 2000);
-    })
-  };
-
-
-  export const getDataTask = async (): Promise<any> => {
-    try {
-        const response = await http.get('http://localhost/portafolio/Session/authentication/Backend/public/user/', {
-            headers: {
-                // No se requiere x-token para esta solicitud
-            }
-        });
-        return response.data;
-    } catch (error) {
-        console.error('Error:', error);
-        throw error; // Propaga el error para que el llamador pueda manejarlo
-    }
+  return new Promise((resolve, reject) => {
+    setTimeout(async () => {
+      try {
+        const response = await http.get("");
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    }, 2000);
+  });
 };
+
+export const onGetDataTask = async (): Promise<any> => {
+  try {
+    const response = await http.post(
+      "portafolio/authentication/Backend/public/task/",
+      {},
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error:", error);
+    throw error;
+  }
+};
+
+export const onAddSaveTask = async (data: { [key: string]: string }): Promise<any> => {
+    try {
+      const response = await http.post(
+        "URL_DE_TU_SERVICIO", // Reemplaza esto con la URL de tu servicio
+        data, // Envía el objeto recibido directamente como datos en la solicitud
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      return response.data; // O lo que necesites devolver
+    } catch (error) {
+      console.error("Error:", error);
+      throw error;
+    }
+  };

@@ -1,35 +1,40 @@
 <script setup lang="ts">
-import { reactive, onMounted } from "vue";
+import { reactive, onMounted, ref } from "vue";
 import store from "@/store/store";
 import TaskList from "@/components/TaskList.vue";
-import {getTaskService,getDataTask} from '@/services';
+import { getTaskService, onGetDataTask, onAddSaveTask } from "@/services";
 
-const params = reactive<{ data:{} }>({ data: {} });
+const params = reactive<{ data: {} }>({ data: {} });
+const descriptionTask = ref<string>("");
 
-onMounted(() =>{
+onMounted(() => {
   // onGetTask();
-})
+});
 
-const onAddTask = (event: any) => {
-  const input = event.target;
-  const newTask = input.value.trim();
-  if(newTask ==""){
-    alert('NO puedes ingresar valores vacios');
+const onAddTask = async (): Promise<void> => {
+  if (descriptionTask.value === "") {
+    alert("No puedes ingresar valores vacios");
+  } else {
+    params.data = {
+      description: descriptionTask.value,
+    };
+
+    const response = await onAddSaveTask(params.data);
+
+    console.log(response);
+    
   }
-  
-}
+};
 
-const onGetTask = async():Promise<void> =>{
-  const getTask = await getTaskService();
-  console.log(getTask);
-  
-}
+const getDataTask = async (): Promise<void> => {
+  const getTask = await onGetDataTask();
+  console.log(getTask.config.data);
+};
 
-const clearDataTask = async():Promise<void> =>{
-  const getTask = await getDataTask();
-  console.log(getTask);
-}
-
+// const clearDataTask = async():Promise<void> =>{
+//   const getTask = await getDataTask();
+//   console.log(getTask);
+// }
 </script>
 
 <template>
@@ -37,17 +42,38 @@ const clearDataTask = async():Promise<void> =>{
     <div class="wrapper">
       <header>Todo App</header>
       <div class="inputField flex gap-1">
-        <input type="text" placeholder="Add your new todo"  @keyup.enter="onAddTask($event)" />
-        <button class="w-[50px] h-[100%] bg-[#721ce3] hover:bg-[#8e49e8] hover:scale-[1.1] rounded-md text-white" @click.stop="onAddTask($event)"><i class="fas fa-plus"></i></button>
+        <input
+          type="text"
+          placeholder="Add your new todo"
+          v-model="descriptionTask"
+          @keyup.enter="onAddTask()"
+        />
+        <button
+          class="w-[50px] h-[100%] bg-[#721ce3] hover:bg-[#8e49e8] hover:scale-[1.1] rounded-md text-white"
+          @click.stop="onAddTask()"
+        >
+          <i class="fas fa-plus"></i>
+        </button>
       </div>
       <div>
-          <input type="button" class="text-white bg-green-400 hover:bg-green-500  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2" value="Iniciadas">
-          <input type="button" class="text-white bg-blue-400 hover:bg-blue-500  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2" value="Terminadas">
-          <input type="button" class="text-white bg-orange-300 hover:bg-orange-500  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2" value="Eliminadas">
-        </div>
+        <input
+          type="button"
+          class="text-white bg-green-400 hover:bg-green-500 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+          value="Iniciadas"
+        />
+        <input
+          type="button"
+          class="text-white bg-blue-400 hover:bg-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+          value="Terminadas"
+        />
+        <input
+          type="button"
+          class="text-white bg-orange-300 hover:bg-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+          value="Eliminadas"
+        />
+      </div>
 
       <div class="containerList h-[256px] overflow-y-scroll">
-        
         <ul class="todoList flex flex-col gap-[0.65em]">
           <li v-for="n in 20">
             <task-list />
@@ -56,7 +82,7 @@ const clearDataTask = async():Promise<void> =>{
       </div>
       <div class="footer">
         <span>You have <span class="pendingTasks"></span> pending tasks</span>
-        <button @click="clearDataTask">Clear All</button>
+        <button @click.stop="getDataTask">Clear All</button>
       </div>
     </div>
   </div>
@@ -79,7 +105,7 @@ const clearDataTask = async():Promise<void> =>{
   padding: 25px;
   border-radius: 5px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-  margin: 20px; 
+  margin: 20px;
 }
 
 .wrapper header {
@@ -104,7 +130,6 @@ const clearDataTask = async():Promise<void> =>{
   padding-left: 15px;
   transition: all 0.3s ease;
 }
-
 
 .inputField input:focus {
   border-color: #8e49e8;
@@ -135,7 +160,7 @@ const clearDataTask = async():Promise<void> =>{
 .inputField button.active {
   opacity: 1;
   pointer-events: auto;
-} */ 
+} */
 
 .footer {
   margin-top: 20px; /* Aseguramos que el pie de página esté separado del contenido */
