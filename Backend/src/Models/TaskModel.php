@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\DB\ConnectionDB;
+use App\Config\ResponseHttp;
 
 class TaskModel extends ConnectionDB
 {
@@ -17,8 +18,7 @@ class TaskModel extends ConnectionDB
 
     public function __construct(array $data)
     {
-        print_r(self::$data);
-        die();
+        self::$description = $data['description'];
     }
 
     public static function getTaskId(): int
@@ -94,6 +94,25 @@ class TaskModel extends ConnectionDB
 
     final public static function postSaveTask(): void
     {
-        echo('donde se guardara todo TaskSave');
+        try {
+           $con = self::getConnection();
+           $query1 = "INSERT INTO task (user_id,category_id,description) VALUES";
+           $query2 = "(:user_id,:category_id,:description)";
+           $query = $con->prepare($query1 . $query2);
+           $query->execute([
+            "user_id"=> 'ELKIN',
+            "category_id"=> 2,
+            "description"=> 'esta es nueva',
+           ]);
+
+           if ($query->rowCount() > 0) {
+            echo json_encode(ResponseHttp::status200("Tarea registrada con exito"));
+        } else {
+            echo json_encode(ResponseHttp::status500("Error al registrar tarea"));
+        }
+        } catch (\PDOException $pdo) {
+           error_log("TaskModel::postSaveTask -> . $pdo");
+           die(json_encode(ResponseHttp::status500()));
+        }
     }
 }

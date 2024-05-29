@@ -887,3 +887,720 @@
 [27-May-2024 21:52:30 America/Bogota] PHP Parse error:  syntax error, unexpected token ")", expecting variable or "{" or "$" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 97
 [27-May-2024 21:52:53 America/Bogota] PHP Parse error:  syntax error, unexpected token ")", expecting variable or "{" or "$" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 97
 [27-May-2024 21:52:54 America/Bogota] PHP Parse error:  syntax error, unexpected token ")", expecting variable or "{" or "$" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 97
+[28-May-2024 20:24:39 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:24:39 America/Bogota] PHP Stack trace:
+[28-May-2024 20:24:39 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:24:39 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:24:39 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:24:39 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:24:39 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:24:39 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:24:39 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:24:39 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:24:39 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:24:39 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:25:23 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:25:23 America/Bogota] PHP Stack trace:
+[28-May-2024 20:25:23 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:25:23 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:25:23 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:25:23 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:25:23 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:25:23 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:25:23 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:25:23 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:25:23 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:25:23 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:27:08 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:27:08 America/Bogota] PHP Stack trace:
+[28-May-2024 20:27:08 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:27:08 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:27:08 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:27:08 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:27:08 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:27:08 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:27:08 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:27:08 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:27:08 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:27:08 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:27:17 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:27:17 America/Bogota] PHP Stack trace:
+[28-May-2024 20:27:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:27:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:27:17 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:27:17 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:27:17 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:27:17 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:27:17 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:27:17 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:27:17 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:27:17 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:28:30 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:28:30 America/Bogota] PHP Stack trace:
+[28-May-2024 20:28:30 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:28:30 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:28:30 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:28:30 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:28:30 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:28:30 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:28:30 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:28:30 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:28:30 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:28:30 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:31:30 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:31:30 America/Bogota] PHP Stack trace:
+[28-May-2024 20:31:30 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:31:30 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:31:30 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:31:30 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:31:30 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:31:30 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:31:30 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:31:30 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:31:30 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:31:30 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:31:37 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:31:37 America/Bogota] PHP Stack trace:
+[28-May-2024 20:31:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:31:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:31:37 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:31:37 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:31:37 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:31:37 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:31:37 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:31:37 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:31:37 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:31:37 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:32:03 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:32:03 America/Bogota] PHP Stack trace:
+[28-May-2024 20:32:03 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:32:03 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:32:03 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:32:03 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:32:03 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:32:03 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:32:03 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:7
+[28-May-2024 20:32:03 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:32:03 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:32:03 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:47:36 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:47:36 America/Bogota] PHP Stack trace:
+[28-May-2024 20:47:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:47:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:47:36 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:47:36 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:47:36 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:47:36 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:47:36 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:47:36 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:47:36 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:47:36 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:47:36 America/Bogota] Conexion Exitosa
+[28-May-2024 20:47:36 America/Bogota] PHP Fatal error:  Uncaught Error: Typed static property App\Models\TaskModel::$created_at must not be accessed before initialization in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:76
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(107): App\Models\TaskModel::getCreatedAt()
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 76
+[28-May-2024 20:48:29 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:48:29 America/Bogota] PHP Stack trace:
+[28-May-2024 20:48:29 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:48:29 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:48:29 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:48:29 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:48:29 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:48:29 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:48:29 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:48:29 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:48:29 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:48:29 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:48:29 America/Bogota] Conexion Exitosa
+[28-May-2024 20:48:29 America/Bogota] PHP Fatal error:  Uncaught Error: Typed static property App\Models\TaskModel::$created_at must not be accessed before initialization in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:76
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(107): App\Models\TaskModel::getCreatedAt()
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 76
+[28-May-2024 20:53:38 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:53:38 America/Bogota] PHP Stack trace:
+[28-May-2024 20:53:38 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:53:38 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:53:38 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:53:38 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:53:38 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:53:38 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:53:38 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:53:38 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:53:38 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:53:38 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:53:38 America/Bogota] Conexion Exitosa
+[28-May-2024 20:53:38 America/Bogota] TaskModel::postSaveTask -> . PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'listapi.tasks' doesn't exist in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:103
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(103): PDOStatement->execute(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+[28-May-2024 20:54:36 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:54:36 America/Bogota] PHP Stack trace:
+[28-May-2024 20:54:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:54:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:54:36 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:54:36 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:54:36 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:54:36 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:54:36 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:54:36 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:54:36 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:54:36 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:54:36 America/Bogota] Conexion Exitosa
+[28-May-2024 20:54:36 America/Bogota] TaskModel::postSaveTask -> . PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'listapi.task' doesn't exist in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:103
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(103): PDOStatement->execute(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+[28-May-2024 20:55:43 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:55:43 America/Bogota] PHP Stack trace:
+[28-May-2024 20:55:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:55:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:55:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:55:43 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:55:43 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:55:43 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:55:43 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:55:43 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:55:43 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:55:43 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:55:43 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 20:55:43 America/Bogota] PHP Stack trace:
+[28-May-2024 20:55:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:55:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:55:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:55:43 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:55:43 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 20:58:26 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:58:26 America/Bogota] PHP Stack trace:
+[28-May-2024 20:58:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:58:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:58:26 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:58:26 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:58:26 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:58:26 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:58:26 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:58:26 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:58:26 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:58:26 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:58:26 America/Bogota] Conexion Exitosa
+[28-May-2024 20:58:26 America/Bogota] PHP Fatal error:  Uncaught Error: Object of class PDO could not be converted to string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:99
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 99
+[28-May-2024 20:58:54 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 20:58:54 America/Bogota] PHP Stack trace:
+[28-May-2024 20:58:54 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 20:58:54 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 20:58:54 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 20:58:54 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 20:58:54 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:58:54 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:58:54 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 20:58:54 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 20:58:54 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 20:58:54 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 20:58:54 America/Bogota] Conexion Exitosa
+[28-May-2024 21:03:17 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:03:17 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:17 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:17 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:17 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:17 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:17 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:03:17 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:17 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:17 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:03:17 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:17 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:17 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:17 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:17 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:18 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:03:18 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:18 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:18 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:18 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:18 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:18 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:18 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:18 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:03:18 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:18 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:18 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:03:18 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:18 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:18 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:18 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:18 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:18 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:18 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:54 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:03:54 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:54 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:54 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:54 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:54 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:54 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:54 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:54 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:03:54 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:54 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:55 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:03:55 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:55 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:55 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:55 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:55 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:56 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:03:56 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:56 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:56 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:56 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:56 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:56 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:56 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:03:56 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:03:56 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:03:56 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:03:56 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:03:56 America/Bogota] PHP Stack trace:
+[28-May-2024 21:03:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:03:56 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:03:56 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:03:56 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:03:56 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:04:05 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:04:05 America/Bogota] PHP Stack trace:
+[28-May-2024 21:04:05 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:04:05 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:04:05 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:04:05 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:04:05 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:04:05 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:04:05 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:04:05 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:04:05 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:04:05 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:04:05 America/Bogota] Conexion Exitosa
+[28-May-2024 21:05:14 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:05:14 America/Bogota] PHP Stack trace:
+[28-May-2024 21:05:14 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:05:14 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:05:14 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/sasaa/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[28-May-2024 21:05:14 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[28-May-2024 21:05:14 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:05:14 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:05:14 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[28-May-2024 21:05:14 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:05:14 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:05:14 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:05:14 America/Bogota] Conexion Exitosa
+[28-May-2024 21:05:15 America/Bogota] La contraseña es incorrecta
+[28-May-2024 21:10:15 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:10:15 America/Bogota] PHP Stack trace:
+[28-May-2024 21:10:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:10:15 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:10:15 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:10:15 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:10:15 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:10:15 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:10:15 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:10:15 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:10:15 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:10:15 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:10:15 America/Bogota] Conexion Exitosa
+[28-May-2024 21:11:11 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:11:11 America/Bogota] PHP Stack trace:
+[28-May-2024 21:11:11 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:11:11 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:11:11 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/sasaa/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[28-May-2024 21:11:11 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[28-May-2024 21:11:11 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:11:11 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:11:11 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[28-May-2024 21:11:11 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:11:11 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:11:11 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:11:11 America/Bogota] Conexion Exitosa
+[28-May-2024 21:11:11 America/Bogota] La contraseña es incorrecta
+[28-May-2024 21:11:16 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:11:16 America/Bogota] PHP Stack trace:
+[28-May-2024 21:11:16 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:11:16 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:11:16 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:11:16 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:11:16 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:11:16 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:11:16 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:11:16 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:11:16 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:11:16 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:11:16 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:11:16 America/Bogota] PHP Stack trace:
+[28-May-2024 21:11:16 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:11:16 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:11:16 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:11:16 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:11:16 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:11:27 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:11:27 America/Bogota] PHP Stack trace:
+[28-May-2024 21:11:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:11:27 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:11:27 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:11:27 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:11:27 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:11:27 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:11:27 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:11:27 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:11:27 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:11:27 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:11:27 America/Bogota] Conexion Exitosa
+[28-May-2024 21:11:27 America/Bogota] TaskModel::postSaveTask -> . PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:103
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(103): PDOStatement->execute(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+[28-May-2024 21:12:37 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:12:37 America/Bogota] PHP Stack trace:
+[28-May-2024 21:12:37 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:12:37 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:12:37 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:12:37 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:12:37 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:12:37 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:12:37 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:12:37 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:12:37 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:12:37 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:12:37 America/Bogota] Conexion Exitosa
+[28-May-2024 21:12:37 America/Bogota] TaskModel::postSaveTask -> . PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:103
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(103): PDOStatement->execute(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+[28-May-2024 21:13:15 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:13:15 America/Bogota] PHP Stack trace:
+[28-May-2024 21:13:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:13:15 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:13:15 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:13:15 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:13:15 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:13:15 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:13:15 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:13:15 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:13:15 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:13:15 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:13:15 America/Bogota] Conexion Exitosa
+[28-May-2024 21:13:41 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:13:41 America/Bogota] PHP Stack trace:
+[28-May-2024 21:13:41 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:13:41 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:13:41 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:13:41 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:13:41 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:13:41 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:13:41 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:13:41 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:13:41 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:13:41 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:13:41 America/Bogota] Conexion Exitosa
+[28-May-2024 21:13:41 America/Bogota] PHP Fatal error:  Uncaught Error: Object of class PDOStatement could not be converted to string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:102
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 102
+[28-May-2024 21:14:07 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:14:07 America/Bogota] PHP Stack trace:
+[28-May-2024 21:14:07 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:14:07 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:14:07 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:14:07 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:14:07 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:14:07 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:14:07 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:14:07 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:14:07 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:14:07 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:14:07 America/Bogota] Conexion Exitosa
+[28-May-2024 21:14:42 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:14:42 America/Bogota] PHP Stack trace:
+[28-May-2024 21:14:42 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:14:42 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:14:42 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:14:42 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:14:42 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:14:42 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:14:42 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:14:42 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:14:42 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:14:42 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:14:42 America/Bogota] Conexion Exitosa
+[28-May-2024 21:14:42 America/Bogota] TaskModel::postSaveTask -> . PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'listapi.task' doesn't exist in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:103
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php(103): PDOStatement->execute(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(44): App\Models\TaskModel::postSaveTask()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#3 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#4 {main}
+[28-May-2024 21:16:38 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:16:38 America/Bogota] PHP Stack trace:
+[28-May-2024 21:16:38 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:16:38 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:16:38 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:16:38 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:16:38 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:16:38 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:16:38 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:16:38 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:16:38 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:16:38 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:16:38 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:16:38 America/Bogota] PHP Stack trace:
+[28-May-2024 21:16:38 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:16:38 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:16:38 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:16:38 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:16:38 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:16:43 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:16:43 America/Bogota] PHP Stack trace:
+[28-May-2024 21:16:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:16:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:16:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:16:43 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:16:43 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:16:43 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:16:43 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:16:43 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:16:43 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:16:43 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:16:43 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:16:43 America/Bogota] PHP Stack trace:
+[28-May-2024 21:16:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:16:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:16:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:16:43 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:16:43 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:18:16 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:18:16 America/Bogota] PHP Stack trace:
+[28-May-2024 21:18:16 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:18:16 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:18:16 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/sasaa/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[28-May-2024 21:18:16 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[28-May-2024 21:18:16 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:18:16 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:18:16 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[28-May-2024 21:18:16 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:18:16 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:18:16 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:18:16 America/Bogota] Conexion Exitosa
+[28-May-2024 21:18:16 America/Bogota] La contraseña es incorrecta
+[28-May-2024 21:19:03 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:19:03 America/Bogota] PHP Stack trace:
+[28-May-2024 21:19:03 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:19:03 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:19:03 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\user.php:16
+[28-May-2024 21:19:03 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:63
+[28-May-2024 21:19:03 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:19:03 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:19:03 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[28-May-2024 21:19:03 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:19:03 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:19:03 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:19:03 America/Bogota] Conexion Exitosa
+[28-May-2024 21:19:22 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:19:22 America/Bogota] PHP Stack trace:
+[28-May-2024 21:19:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:19:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:19:22 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\user.php:16
+[28-May-2024 21:19:22 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:63
+[28-May-2024 21:19:22 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:19:22 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:19:22 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[28-May-2024 21:19:22 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:19:22 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:19:22 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:19:22 America/Bogota] Conexion Exitosa
+[28-May-2024 21:19:22 America/Bogota] Conexion Exitosa
+[28-May-2024 21:19:22 America/Bogota] Conexion Exitosa
+[28-May-2024 21:20:17 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:20:17 America/Bogota] PHP Stack trace:
+[28-May-2024 21:20:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:20:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:20:17 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\user.php:16
+[28-May-2024 21:20:17 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:63
+[28-May-2024 21:20:17 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:20:17 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:20:17 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[28-May-2024 21:20:17 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:20:17 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:20:17 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:20:17 America/Bogota] Conexion Exitosa
+[28-May-2024 21:20:17 America/Bogota] Conexion Exitosa
+[28-May-2024 21:20:17 America/Bogota] Conexion Exitosa
+[28-May-2024 21:24:56 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:24:56 America/Bogota] PHP Stack trace:
+[28-May-2024 21:24:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:24:56 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:24:56 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:24:56 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:24:56 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:24:56 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:24:56 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:24:56 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:24:56 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:24:56 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:24:56 America/Bogota] Conexion Exitosa
+[28-May-2024 21:25:55 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:25:55 America/Bogota] PHP Stack trace:
+[28-May-2024 21:25:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:25:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:25:55 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:25:55 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:25:55 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:25:55 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:25:55 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:25:55 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:25:55 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:25:55 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:25:55 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:25:55 America/Bogota] PHP Stack trace:
+[28-May-2024 21:25:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:25:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:25:55 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:25:55 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:25:55 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:26:28 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:26:28 America/Bogota] PHP Stack trace:
+[28-May-2024 21:26:28 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:26:28 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:26:28 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:26:28 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:26:28 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:26:28 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:26:28 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:26:28 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:26:28 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:26:28 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:26:28 America/Bogota] PHP Warning:  Undefined array key "description" in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:26:28 America/Bogota] PHP Stack trace:
+[28-May-2024 21:26:28 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:26:28 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:26:28 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', []) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:26:28 America/Bogota] PHP   4. App\Models\TaskModel->__construct($data = []) C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:26:28 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\TaskModel::$description of type string in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:21
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel->__construct(Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(24): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 21
+[28-May-2024 21:26:38 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:26:38 America/Bogota] PHP Stack trace:
+[28-May-2024 21:26:38 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:26:38 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:26:38 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:26:38 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:26:38 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:26:38 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:26:38 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:26:38 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:26:38 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:26:38 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:26:38 America/Bogota] Conexion Exitosa
+[28-May-2024 21:26:59 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[28-May-2024 21:26:59 America/Bogota] PHP Stack trace:
+[28-May-2024 21:26:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[28-May-2024 21:26:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[28-May-2024 21:26:59 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['description' => 'hola']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+[28-May-2024 21:26:59 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\TaskModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[28-May-2024 21:26:59 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\TaskModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:26:59 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:26:59 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:8
+[28-May-2024 21:26:59 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[28-May-2024 21:26:59 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[28-May-2024 21:26:59 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[28-May-2024 21:26:59 America/Bogota] Conexion Exitosa

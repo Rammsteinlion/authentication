@@ -5,7 +5,7 @@
 define('HOST', 'localhost');
 define('DB', 'todolistapp');
 define('USER', 'root');
-define('PASSWORD', "");
+define('PASSWORD', "YQY-1234");
 define('CHARSET', 'utf8mb4');
 
 ?>
