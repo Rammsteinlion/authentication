@@ -34,7 +34,7 @@ export const onGetDataTask = async (): Promise<any> => {
 export const onAddSaveTask = async (data: { [key: string]: string }): Promise<any> => {
     try {
       const response = await http.post(
-        "URL_DE_TU_SERVICIO", // Reemplaza esto con la URL de tu servicio
+        "/portafolio/authentication/Backend/public/task/", // Reemplaza esto con la URL de tu servicio
         data, // Envía el objeto recibido directamente como datos en la solicitud
         {
           headers: {
