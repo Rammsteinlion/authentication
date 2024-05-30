@@ -1604,3 +1604,387 @@ Stack trace:
 [28-May-2024 21:26:59 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
 [28-May-2024 21:26:59 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
 [28-May-2024 21:26:59 America/Bogota] Conexion Exitosa
+[29-May-2024 22:01:55 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:01:55 America/Bogota] PHP Stack trace:
+[29-May-2024 22:01:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:01:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:01:55 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\user.php:16
+[29-May-2024 22:01:55 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:63
+[29-May-2024 22:01:55 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:01:55 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:01:55 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:01:55 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:01:55 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:01:55 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:01:55 America/Bogota] Conexion Exitosa
+[29-May-2024 22:02:26 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:02:26 America/Bogota] PHP Stack trace:
+[29-May-2024 22:02:26 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:02:26 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:02:26 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/emurillot/sasaa/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:02:26 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:02:26 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:26 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:26 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:02:26 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:26 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:26 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:02:26 America/Bogota] Conexion Exitosa
+[29-May-2024 22:02:49 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:02:49 America/Bogota] PHP Stack trace:
+[29-May-2024 22:02:49 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:02:49 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:02:49 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:02:49 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:02:49 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:49 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:49 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:02:49 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:49 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:49 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:02:49 America/Bogota] Conexion Exitosa
+[29-May-2024 22:02:55 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:02:55 America/Bogota] PHP Stack trace:
+[29-May-2024 22:02:55 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:02:55 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:02:55 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:02:55 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:02:55 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:55 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:55 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:02:55 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:55 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:55 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:02:55 America/Bogota] Conexion Exitosa
+[29-May-2024 22:02:56 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:02:56 America/Bogota] PHP Stack trace:
+[29-May-2024 22:02:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:02:56 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:02:56 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:02:56 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:02:56 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:56 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:56 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:02:56 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:56 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:56 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:02:56 America/Bogota] Conexion Exitosa
+[29-May-2024 22:02:57 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:02:57 America/Bogota] PHP Stack trace:
+[29-May-2024 22:02:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:02:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:02:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:02:57 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:02:57 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:57 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:57 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:02:57 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:02:57 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:02:57 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:02:57 America/Bogota] Conexion Exitosa
+[29-May-2024 22:47:30 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:47:30 America/Bogota] PHP Stack trace:
+[29-May-2024 22:47:30 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:47:30 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:47:30 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\user.php:16
+[29-May-2024 22:47:30 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:63
+[29-May-2024 22:47:30 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:47:30 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:47:30 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:47:30 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:47:30 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:47:30 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:47:30 America/Bogota] Conexion Exitosa
+[29-May-2024 22:47:30 America/Bogota] Conexion Exitosa
+[29-May-2024 22:47:30 America/Bogota] Conexion Exitosa
+[29-May-2024 22:47:54 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:47:54 America/Bogota] PHP Stack trace:
+[29-May-2024 22:47:54 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:47:54 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:47:54 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:47:54 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:47:54 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:47:54 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:47:54 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:47:54 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:47:54 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:47:54 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:47:54 America/Bogota] Conexion Exitosa
+[29-May-2024 22:47:57 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:47:57 America/Bogota] PHP Stack trace:
+[29-May-2024 22:47:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:47:57 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:47:57 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:47:57 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:47:57 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:47:57 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:47:57 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:47:57 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:47:57 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:47:57 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:47:57 America/Bogota] Conexion Exitosa
+[29-May-2024 22:51:09 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:51:09 America/Bogota] PHP Stack trace:
+[29-May-2024 22:51:09 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:51:09 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:51:09 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:51:09 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:51:09 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:51:09 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:51:09 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:51:09 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:51:09 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:51:09 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:51:09 America/Bogota] Conexion Exitosa
+[29-May-2024 22:58:35 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:58:35 America/Bogota] PHP Stack trace:
+[29-May-2024 22:58:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:58:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:58:35 America/Bogota] PHP   3. App\Controllers\UserController->postSave($endPoint = 'user/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\user.php:16
+[29-May-2024 22:58:35 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:63
+[29-May-2024 22:58:35 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:58:35 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:58:35 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:58:35 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:58:35 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:58:35 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:58:35 America/Bogota] Conexion Exitosa
+[29-May-2024 22:58:39 America/Bogota] PHP Warning:  Undefined array key "PORT" in C:\wamp64\www\portafolio\authentication\Backend\src\DB\dataDB.php on line 15
+[29-May-2024 22:58:39 America/Bogota] PHP Stack trace:
+[29-May-2024 22:58:39 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 22:58:39 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 22:58:39 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[29-May-2024 22:58:39 America/Bogota] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Models\\UserModel') C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:78
+[29-May-2024 22:58:39 America/Bogota] PHP   5. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src\\Models\\UserModel.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:58:39 America/Bogota] PHP   6. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:58:39 America/Bogota] PHP   7. Composer\Autoload\ClassLoader->loadClass($class = 'App\\DB\\ConnectionDB') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:10
+[29-May-2024 22:58:39 America/Bogota] PHP   8. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/DB/ConnectionDB.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[29-May-2024 22:58:39 America/Bogota] PHP   9. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[29-May-2024 22:58:39 America/Bogota] PHP  10. require() C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:8
+[29-May-2024 22:58:39 America/Bogota] Conexion Exitosa
+[29-May-2024 23:06:47 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 7
+[29-May-2024 23:06:47 America/Bogota] PHP Stack trace:
+[29-May-2024 23:06:47 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:06:47 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:06:47 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 7
+[29-May-2024 23:06:47 America/Bogota] PHP Stack trace:
+[29-May-2024 23:06:47 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:06:47 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:06 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:06 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:06 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:06 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:06 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:06 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:06 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:06 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:22 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:22 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:22 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:22 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:23 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:23 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:23 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:23 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:23 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:23 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:23 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:23 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:31 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:31 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:31 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:31 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:31 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:31 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:31 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:31 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:32 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:32 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:32 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:32 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:32 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:32 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:32 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:32 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:35 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:35 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:12:35 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:12:35 America/Bogota] PHP Stack trace:
+[29-May-2024 23:12:35 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:12:35 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:13 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:13 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:13 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:13 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:13 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:13 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:13 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:13 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:15 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:15 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:15 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:15 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:15 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:15 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:16 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:16 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:16 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:16 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:16 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:16 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:16 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:16 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:17 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:17 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:17 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:17 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:17 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:17 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:17 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:17 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:17 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:17 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:18 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:18 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:18 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:18 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:13:18 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:13:18 America/Bogota] PHP Stack trace:
+[29-May-2024 23:13:18 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:13:18 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:14:01 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:14:01 America/Bogota] PHP Stack trace:
+[29-May-2024 23:14:01 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:14:01 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:14:07 America/Bogota] PHP Warning:  Undefined variable $headers in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 8
+[29-May-2024 23:14:07 America/Bogota] PHP Stack trace:
+[29-May-2024 23:14:07 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[29-May-2024 23:14:07 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[29-May-2024 23:15:10 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:15:36 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:18:21 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:18:50 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:18:52 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:18:52 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:18:53 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:18:53 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:19:06 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:19:07 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:19:18 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:19:19 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:48
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 48
+[29-May-2024 23:19:58 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
+[29-May-2024 23:19:59 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
+[29-May-2024 23:20:10 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
+[29-May-2024 23:22:17 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
+[29-May-2024 23:22:19 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
+[29-May-2024 23:22:27 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
+[29-May-2024 23:22:28 America/Bogota] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validateTokenJwt(): Argument #1 ($token) must be of type array, string given, called in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 20 and defined in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:51
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(20): App\Config\Security::validateTokenJwt('eyJ0eXAiOiJKV1Q...', '9$@Jl#0&mG*')
+#1 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#2 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 51
