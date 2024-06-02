@@ -77,6 +77,7 @@ class UserController
             } else {
                 UserModel::setUsername($username);
                 UserModel::setPassword($password);
+                session_start();
                 echo json_encode(UserModel::Login());
             }
         } else {

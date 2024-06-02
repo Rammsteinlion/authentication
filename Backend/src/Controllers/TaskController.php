@@ -33,13 +33,12 @@ class TaskController
     {
 
         if (self::$method == 'post' && $endPoint == self::$route) {
-
-            foreach (self::$data as $element) {
-                if (empty($element)) {
+            foreach (self::$data as $key => $value) {
+                if ($value === '' || $value === null) {
                     echo json_encode(ResponseHttp::status400('Todos los campos son necesarios'));
-                    break; 
+                    break;
                 }
-            }
+            };
             new TaskModel(self::$data);
             echo json_encode(TaskModel::postSaveTask());
         }

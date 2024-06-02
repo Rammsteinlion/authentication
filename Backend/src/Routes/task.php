@@ -17,17 +17,7 @@ if (!isset($headers['Authorization']) || $headers['Authorization'] == null) {
 
 // Extraer el token de los encabezados
 $token = $headers['Authorization'];
-Security::validateTokenJwt($token,Security::secretKey());
-// Security::validateTokenJwt($token,Security::secretKey());
-
-die();
-// // Validar el token (aquí debes implementar tu lógica de validación)
-// if ($token !== 'el_token_correcto') {
-//     // El token no es válido
-//     ResponseHttp::status400(401, 'Unauthorized', 'Invalid token');
-//     exit();
-// }
-
+$validateJwt = Security::validateTokenJwt($token,Security::secretKey());
 
 $method = strtolower($_SERVER['REQUEST_METHOD']);
 $route = isset($_GET['route']) ? $_GET['route'] : null;
@@ -36,17 +26,12 @@ $input = file_get_contents('php://input');
 $data = json_decode($input, true);
 $headers = getallheaders();
 
-
-// Validar la entrada
-if (json_last_error() !== JSON_ERROR_NONE) {
-    echo 'Error en la petición';
-    die();
+if ($data === null && json_last_error() !== JSON_ERROR_NONE) {
+    // Si la decodificación JSON falla, podrías intentar procesar los datos de otra manera
+    parse_str($input, $data); // Intenta analizar los datos como www-form-urlencoded
 }
 
 $task = new TaskController($method,$route,$params,$data,$headers);
-
-var_dump($data);
-die();
 $task->taskSave('task/',$data)
 
 

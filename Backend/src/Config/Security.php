@@ -5,6 +5,8 @@ namespace App\Config;
 use Dotenv\Dotenv;
 use Dotenv\Util\Str;
 use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
+use Firebase\JWT\ExpiredException;
 
 class Security
 {
@@ -39,76 +41,79 @@ class Security
     {
         $payload = array(
             'iat' => time(),
-            'exp' => time() + (10),
+            'exp' => time() + (30 * 60),
             'data' => $data,
         );
 
         $jwt = JWT::encode($payload, $key, 'HS256');
+        self::$jwt_data = $jwt;
         return $jwt;
     }
 
 
     final public static function validateTokenJwt(string $token, string $key)
     {
-         var_dump($key,'HOOLA');
-        die();
-        
-        // if (!isset($token['Authorization'])) {
-        //     die(json_encode(ResponseHttp::status400()));
-        //     error_Log('Datos Incompletos');
-        //     exit();
-        // }
 
+        if (!isset(getallheaders()['Authorization'])) {
+            die(json_encode(ResponseHttp::status400('El token de acceso en requerido')));
+            exit;
+        }
 
-        // try {
+        try {
+            $decoded = JWT::decode($token, new Key($key, 'HS256'));
+            $decodedArray = (array) $decoded;
 
-        //     $jwt = explode(" ", $token['Authorization']);
-        //     $data = JWT::decode($jwt[1], $key . array('HS256'));
-        //     var_dump(self::$jwt_data, 'UNO');
-        //     var_dump($data, 'DOS');
-        //     die();
-        //     self::$jwt_data = $data;
-        //     return $data;
-        // } catch (\Exception $e) {
-        //     error_log('Token invalido o expiro');
-        //     die(json_encode(ResponseHttp::status401('token invalido o expirado')));
-        //     exit();
-        // }
+            //validar tiempo
+            $currentime = time();
+            if ($decodedArray['exp'] - $currentime <  (30 * 60)) {
+                //generar nuevo tiempo con dos minutos de mas 
+                $decodedArray['exp'] = $currentime + (30 * 60);
+                $newToken = JWT::encode($decodedArray, $key, 'HS256');
+                return [
+                    'token' => $newToken,
+                    'payload' => $decodedArray
+                ];
+            }
+            return $decodedArray;
+        } catch (ExpiredException $e) {
+            error_log('Token ha expirado: ' . $e->getMessage());
+            die(json_encode(ResponseHttp::status401('Token ha expirado')));
+        } catch (\Exception $e) {
+            error_log('Token inválido: ' . $e->getMessage());
+            die(json_encode(ResponseHttp::status401('Token inválido')));
+        }
     }
 
-    // final public static function validateTokenJwt(array $token, string $key)
+
+    // final public static function validateTokenJwt(string $token, string $key)
     // {
-    //     echo ('HOOLA');
-    //     die();
 
-    //     if (!isset($token['Authorization'])) {
-    //         die(json_encode(ResponseHttp::status400()));
-    //         error_Log('Datos Incompletos');
-    //         exit();
+    //     if (!isset(getallheaders()['Authorization'])) {
+    //         die(json_encode(ResponseHttp::status400('El token de acceso en requerido')));
+    //         exit;
     //     }
-
 
     //     try {
-
-    //         $jwt = explode(" ", $token['Authorization']);
-    //         $data = JWT::decode($jwt[1], $key . array('HS256'));
-    //         var_dump(self::$jwt_data, 'UNO');
-    //         var_dump($data, 'DOS');
-    //         die();
-    //         self::$jwt_data = $data;
-    //         return $data;
+    //         $decoded = JWT::decode($token, new Key($key, 'HS256'));
+    //         return (array) $decoded; 
+    //     } catch (ExpiredException $e) {
+    //         error_log('Token ha expirado: ' . $e->getMessage());
+    //         die(json_encode(ResponseHttp::status401('Token ha expirado')));
     //     } catch (\Exception $e) {
-    //         error_log('Token invalido o expiro');
-    //         die(json_encode(ResponseHttp::status401('token invalido o expirado')));
-    //         exit();
+    //         error_log('Token inválido: ' . $e->getMessage());
+    //         die(json_encode(ResponseHttp::status401('Token inválido')));
     //     }
     // }
+
+
 
     //retornar los datos del jwt en un json
     final public static function getDataJwt(): array
     {
-        $jwt_decode_array = json_decode(json_decode(self::$jwt_data), true);
-        return $jwt_decode_array['data'];
-        exit;
+        $jwt_decode_array = json_decode(self::$jwt_data, true);
+        if (isset($jwt_decode_array['data'])) {
+            return $jwt_decode_array['data'];
+        }
+        return [];
     }
 }
