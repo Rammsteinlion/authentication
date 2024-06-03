@@ -7,6 +7,8 @@ use App\DB\ConnectionDB;
 use App\DB\Sql;
 use App\Config\Security;
 
+session_start();
+
 class UserModel extends ConnectionDB
 {
 
@@ -133,6 +135,8 @@ class UserModel extends ConnectionDB
 
     final public static function Login(): array
     {
+        Security::startSession();
+
         try {
             $con = self::getConnection()->prepare("SELECT * FROM user WHERE username = :username");
             $con->execute([
@@ -152,6 +156,11 @@ class UserModel extends ConnectionDB
                             'rol' => $res['rol'],
                             'token' => $token
                         ];
+                        $dataSession =[
+                            'name' => (int)$res['name'],
+                            'id_user' => $res['id_user'],
+                        ];
+                        $_SESSION['user'] = $dataSession;
                         return ResponseHttp::status200($data);
                         exit;
                     } else {
@@ -166,6 +175,3 @@ class UserModel extends ConnectionDB
         }
     }
 }
-
-
-?>

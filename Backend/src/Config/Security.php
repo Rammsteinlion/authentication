@@ -8,6 +8,9 @@ use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 use Firebase\JWT\ExpiredException;
 
+session_start();
+
+
 class Security
 {
 
@@ -105,8 +108,6 @@ class Security
     //     }
     // }
 
-
-
     //retornar los datos del jwt en un json
     final public static function getDataJwt(): array
     {
@@ -115,5 +116,19 @@ class Security
             return $jwt_decode_array['data'];
         }
         return [];
+    }
+
+     final public static function startSession()
+    {
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+    }
+
+     final public static function destroySession()
+    {
+        session_start();
+        session_unset();
+        session_destroy();
     }
 }

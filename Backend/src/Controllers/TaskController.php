@@ -43,4 +43,22 @@ class TaskController
             echo json_encode(TaskModel::postSaveTask());
         }
     }
+
+    final public function deleteTask(string $endPoint): void
+    {
+        try {
+            if (self::$method == 'post' && $endPoint == self::$route) {
+                foreach (self::$data as $key => $value) {
+                    if ($value === '' || $value === null) {
+                        echo json_encode(ResponseHttp::status400('Todos los campos son necesarios'));
+                        break;
+                    }
+                };
+                new TaskModel(self::$data);
+                echo json_encode(TaskModel::postSaveTask());
+            }
+        } catch (\PDOException $pdo) {
+            echo json_encode(ResponseHttp::status400('Error'));
+        }
+    }
 }

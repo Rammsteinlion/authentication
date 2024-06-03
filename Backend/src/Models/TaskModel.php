@@ -13,6 +13,7 @@ class TaskModel extends ConnectionDB
     private static string $priority;
     private static string $created_at;
     private static string $updated_at;
+    private static string $expiration_date;
 
 
     public function __construct(array $data)
@@ -21,8 +22,9 @@ class TaskModel extends ConnectionDB
         self::$description = $data['description'];
         self::$state = $data['state'];
         self::$priority = $data['priority'];
-        self::$created_at = date('Y-m-d H:i:s');
+        self::$created_at = $data['created_at'];
         self::$updated_at = date('Y-m-d H:i:s');
+        self::$expiration_date =  $data['expiration_date'];
     }
 
 
@@ -86,26 +88,35 @@ class TaskModel extends ConnectionDB
         self::$updated_at = $updated_at;
     }
 
+    // Static getter method
+    public static function getExpirationDate(): string {
+        return self::$expiration_date;
+    }
+
+    // Static setter method
+    public static function setExpirationDate(string $expiration_date): void {
+        self::$expiration_date = $expiration_date;
+    }
+
 
     final public static function postSaveTask(): void
     {
+        session_start();
+
         try {
 
-
             $con = self::getConnection();
-            var_dump($con,'HOLA');
-            die();
             $query1 = "INSERT INTO task (category_id,user_assigned,description,priority,state,created_at,expiration_date) VALUES";
-            $query2 = "(:category_id,:user_assigned,:description,:priority,:state,:created_at,:expiration_date,)";
+            $query2 = "(:category_id,:user_assigned,:description,:priority,:state,:created_at,:expiration_date)";
             $query = $con->prepare($query1 . $query2);
             $query->execute([
                 "category_id" => 20,
-                "user_assigned" => 1,
+                "user_assigned" => $_SESSION['user']['id_user'],
                 "description" => self::getDescription(),
                 "priority" => self::getState(),
                 "state" => self::getState(),
-                "created_at" =>  "2024-05-29 22:47:06",
-                "expiration_date" => "2024-05-29",
+                "created_at" =>  self::getCreatedAt(),
+                "expiration_date" => self::getExpirationDate()
             ]);
 
             if ($query->rowCount() > 0) {
@@ -115,6 +126,17 @@ class TaskModel extends ConnectionDB
             }
         } catch (\PDOException $pdo) {
             error_log("TaskModel::postSaveTask -> . $pdo");
+            die(json_encode(ResponseHttp::status500()));
+        }
+    }
+
+    final public function postDeleteTask():void{
+        session_start();
+        try {
+            $con = self::getConnection();
+            
+        } catch (\PDOException $pdo) {
+            error_log("TaskModel::postDeleteTask -> . $pdo");
             die(json_encode(ResponseHttp::status500()));
         }
     }

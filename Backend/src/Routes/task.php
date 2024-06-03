@@ -32,7 +32,8 @@ if ($data === null && json_last_error() !== JSON_ERROR_NONE) {
 }
 
 $task = new TaskController($method,$route,$params,$data,$headers);
-$task->taskSave('task/',$data)
+$task->taskSave('task/',$data);
+$task->deleteTask('task/deleteTask/');
 
 
 ?>

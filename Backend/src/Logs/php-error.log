@@ -86,3 +86,282 @@ Stack trace:
 #3 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(35): App\Controllers\TaskController->taskSave('task/', Array)
 #4 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
 #5 {main}
+[02-Jun-2024 07:56:02 America/Bogota] Error de conexion:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:27
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php(27): PDO->__construct('mysql:host=127....', 'root', 'YQY-1234', Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php(137): App\DB\ConnectionDB::getConnection()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php(81): App\Models\UserModel::Login()
+#3 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php(16): App\Controllers\UserController->getLogin('auth/rasta/1234...')
+#4 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#5 {main}
+[02-Jun-2024 07:56:04 America/Bogota] Error de conexion:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:27
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php(27): PDO->__construct('mysql:host=127....', 'root', 'YQY-1234', Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php(137): App\DB\ConnectionDB::getConnection()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php(81): App\Models\UserModel::Login()
+#3 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php(16): App\Controllers\UserController->getLogin('auth/rasta/1234...')
+#4 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#5 {main}
+[02-Jun-2024 07:56:11 America/Bogota] Token ha expirado: Expired token
+[02-Jun-2024 07:56:44 America/Bogota] Error de conexion:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:27
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php(27): PDO->__construct('mysql:host=127....', 'root', 'YQY-1234', Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php(137): App\DB\ConnectionDB::getConnection()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php(81): App\Models\UserModel::Login()
+#3 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php(16): App\Controllers\UserController->getLogin('auth/rasta/1234...')
+#4 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#5 {main}
+[02-Jun-2024 07:56:45 America/Bogota] Error de conexion:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:27
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php(27): PDO->__construct('mysql:host=127....', 'root', 'YQY-1234', Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php(137): App\DB\ConnectionDB::getConnection()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php(81): App\Models\UserModel::Login()
+#3 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php(16): App\Controllers\UserController->getLogin('auth/rasta/1234...')
+#4 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#5 {main}
+[02-Jun-2024 07:58:36 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php on line 16
+[02-Jun-2024 07:58:36 America/Bogota] PHP Stack trace:
+[02-Jun-2024 07:58:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 07:58:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 07:58:39 America/Bogota] PHP Warning:  Undefined array key 2 in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php on line 16
+[02-Jun-2024 07:58:39 America/Bogota] PHP Stack trace:
+[02-Jun-2024 07:58:39 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 07:58:39 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 08:03:01 America/Bogota] Error de conexion:PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php:27
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\DB\ConnectionDB.php(27): PDO->__construct('mysql:host=127....', 'root', 'YQY-1234', Array)
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php(137): App\DB\ConnectionDB::getConnection()
+#2 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php(81): App\Models\UserModel::Login()
+#3 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php(16): App\Controllers\UserController->getLogin('auth/rasta/1234...')
+#4 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#5 {main}
+[02-Jun-2024 08:05:34 America/Bogota] Conexion Exitosa
+[02-Jun-2024 08:08:17 America/Bogota] Conexion Exitosa
+[02-Jun-2024 08:11:10 America/Bogota] Conexion Exitosa
+[02-Jun-2024 08:20:27 America/Bogota] Conexion Exitosa
+[02-Jun-2024 08:20:27 America/Bogota] PHP Fatal error:  Uncaught Error: Undefined constant App\Models\TaskModel::getEx in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:110
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php(43): App\Models\TaskModel::postSaveTask()
+#1 C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php(35): App\Controllers\TaskController->taskSave('task/', Array)
+#2 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 110
+[02-Jun-2024 08:22:09 America/Bogota] Conexion Exitosa
+[02-Jun-2024 08:25:59 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php on line 80
+[02-Jun-2024 08:25:59 America/Bogota] PHP Stack trace:
+[02-Jun-2024 08:25:59 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 08:25:59 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 08:25:59 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[02-Jun-2024 08:25:59 America/Bogota] PHP   4. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:80
+[02-Jun-2024 08:25:59 America/Bogota] Conexion Exitosa
+[02-Jun-2024 08:26:25 America/Bogota] PHP Warning:  Undefined variable $_SESSION in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 08:26:25 America/Bogota] PHP Stack trace:
+[02-Jun-2024 08:26:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 08:26:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 08:26:25 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 08:26:25 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 08:26:25 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 08:26:25 America/Bogota] PHP Stack trace:
+[02-Jun-2024 08:26:25 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 08:26:25 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 08:26:25 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 08:26:25 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 08:26:43 America/Bogota] PHP Warning:  Undefined variable $_SESSION in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 08:26:43 America/Bogota] PHP Stack trace:
+[02-Jun-2024 08:26:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 08:26:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 08:26:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 08:26:43 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 08:26:43 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 08:26:43 America/Bogota] PHP Stack trace:
+[02-Jun-2024 08:26:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 08:26:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 08:26:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 08:26:43 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 14:16:00 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php on line 80
+[02-Jun-2024 14:16:00 America/Bogota] PHP Stack trace:
+[02-Jun-2024 14:16:00 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 14:16:00 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 14:16:00 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[02-Jun-2024 14:16:00 America/Bogota] PHP   4. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:80
+[02-Jun-2024 14:16:00 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php on line 138
+[02-Jun-2024 14:16:00 America/Bogota] PHP Stack trace:
+[02-Jun-2024 14:16:00 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 14:16:00 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 14:16:00 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[02-Jun-2024 14:16:00 America/Bogota] PHP   4. App\Models\UserModel::Login() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:81
+[02-Jun-2024 14:16:00 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:138
+[02-Jun-2024 14:16:00 America/Bogota] Conexion Exitosa
+[02-Jun-2024 14:16:13 America/Bogota] PHP Warning:  Undefined variable $_SESSION in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 14:16:13 America/Bogota] PHP Stack trace:
+[02-Jun-2024 14:16:13 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 14:16:13 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 14:16:13 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 14:16:13 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 14:16:13 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 14:16:13 America/Bogota] PHP Stack trace:
+[02-Jun-2024 14:16:13 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 14:16:13 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 14:16:13 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 14:16:13 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 14:16:15 America/Bogota] PHP Warning:  Undefined variable $_SESSION in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 14:16:15 America/Bogota] PHP Stack trace:
+[02-Jun-2024 14:16:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 14:16:15 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 14:16:15 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 14:16:15 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[02-Jun-2024 14:16:15 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 106
+[02-Jun-2024 14:16:15 America/Bogota] PHP Stack trace:
+[02-Jun-2024 14:16:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[02-Jun-2024 14:16:15 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[02-Jun-2024 14:16:15 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[02-Jun-2024 14:16:15 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 09:58:29 America/Bogota] Token ha expirado: Expired token
+[03-Jun-2024 09:58:32 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php on line 80
+[03-Jun-2024 09:58:32 America/Bogota] PHP Stack trace:
+[03-Jun-2024 09:58:32 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 09:58:32 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 09:58:32 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 09:58:32 America/Bogota] PHP   4. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:80
+[03-Jun-2024 09:58:32 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 11
+[03-Jun-2024 09:58:32 America/Bogota] PHP Stack trace:
+[03-Jun-2024 09:58:32 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 09:58:32 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 09:58:32 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 09:58:32 America/Bogota] PHP   4. App\Models\UserModel::Login() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:81
+[03-Jun-2024 09:58:32 America/Bogota] PHP   5. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Config\\Security') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:138
+[03-Jun-2024 09:58:32 America/Bogota] PHP   6. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/Config/Security.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[03-Jun-2024 09:58:32 America/Bogota] PHP   7. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[03-Jun-2024 09:58:32 America/Bogota] PHP   8. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:11
+[03-Jun-2024 09:58:32 America/Bogota] Conexion Exitosa
+[03-Jun-2024 09:58:53 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 09:58:53 America/Bogota] PHP Stack trace:
+[03-Jun-2024 09:58:53 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 09:58:53 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 09:58:53 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 09:58:53 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 09:58:53 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 09:59:54 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 09:59:54 America/Bogota] PHP Stack trace:
+[03-Jun-2024 09:59:54 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 09:59:54 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 09:59:54 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 09:59:54 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 09:59:54 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:00:29 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:00:29 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:00:29 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:00:29 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:00:29 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:00:29 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:00:29 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:00:33 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php on line 80
+[03-Jun-2024 10:00:33 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:00:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:00:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:00:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 10:00:33 America/Bogota] PHP   4. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:80
+[03-Jun-2024 10:00:33 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 11
+[03-Jun-2024 10:00:33 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:00:33 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:00:33 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:00:33 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 10:00:33 America/Bogota] PHP   4. App\Models\UserModel::Login() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:81
+[03-Jun-2024 10:00:33 America/Bogota] PHP   5. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Config\\Security') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:138
+[03-Jun-2024 10:00:33 America/Bogota] PHP   6. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/Config/Security.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[03-Jun-2024 10:00:33 America/Bogota] PHP   7. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[03-Jun-2024 10:00:33 America/Bogota] PHP   8. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:11
+[03-Jun-2024 10:00:33 America/Bogota] Conexion Exitosa
+[03-Jun-2024 10:00:43 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:00:43 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:00:43 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:00:43 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:00:43 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:00:43 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:00:43 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:03:34 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php on line 80
+[03-Jun-2024 10:03:34 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:03:34 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:03:34 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:03:34 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 10:03:34 America/Bogota] PHP   4. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:80
+[03-Jun-2024 10:03:34 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 11
+[03-Jun-2024 10:03:34 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:03:34 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:03:34 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:03:34 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 10:03:34 America/Bogota] PHP   4. App\Models\UserModel::Login() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:81
+[03-Jun-2024 10:03:34 America/Bogota] PHP   5. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Config\\Security') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:138
+[03-Jun-2024 10:03:34 America/Bogota] PHP   6. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/Config/Security.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[03-Jun-2024 10:03:34 America/Bogota] PHP   7. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[03-Jun-2024 10:03:34 America/Bogota] PHP   8. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:11
+[03-Jun-2024 10:03:34 America/Bogota] Conexion Exitosa
+[03-Jun-2024 10:03:47 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:03:47 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:03:47 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:03:47 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:03:47 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:03:47 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:03:47 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:05:06 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:05:06 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:05:06 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:05:06 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:05:06 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:05:06 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:05:06 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:05:08 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:05:08 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:05:08 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:05:08 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:05:08 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:05:08 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:05:08 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:10:22 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:10:22 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:10:22 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:10:22 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:10:22 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 1, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:10:22 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:10:22 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:10:22 America/Bogota] Conexion Exitosa
+[03-Jun-2024 10:10:46 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php on line 104
+[03-Jun-2024 10:10:46 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:10:46 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:10:46 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:10:46 America/Bogota] PHP   3. App\Controllers\TaskController->taskSave($endPoint = 'task/', ['category_id' => 11, 'description' => 'Este es el primero', 'state' => 1, 'priority' => 1, 'created_at' => '2024-05-29 22:47:06', 'expiration_date' => '2024-06-01']) C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:35
+[03-Jun-2024 10:10:46 America/Bogota] PHP   4. App\Models\TaskModel::postSaveTask() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\TaskController.php:43
+[03-Jun-2024 10:10:46 America/Bogota] PHP   5. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Models\TaskModel.php:104
+[03-Jun-2024 10:10:46 America/Bogota] Conexion Exitosa
+[03-Jun-2024 10:45:36 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php on line 80
+[03-Jun-2024 10:45:36 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:45:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:45:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:45:36 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 10:45:36 America/Bogota] PHP   4. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:80
+[03-Jun-2024 10:45:36 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php on line 11
+[03-Jun-2024 10:45:36 America/Bogota] PHP Stack trace:
+[03-Jun-2024 10:45:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:0
+[03-Jun-2024 10:45:36 America/Bogota] PHP   2. require() C:\wamp64\www\portafolio\authentication\Backend\public\index.php:25
+[03-Jun-2024 10:45:36 America/Bogota] PHP   3. App\Controllers\UserController->getLogin($endPoint = 'auth/rasta/12345678/') C:\wamp64\www\portafolio\authentication\Backend\src\Routes\auth.php:16
+[03-Jun-2024 10:45:36 America/Bogota] PHP   4. App\Models\UserModel::Login() C:\wamp64\www\portafolio\authentication\Backend\src\Controllers\UserController.php:81
+[03-Jun-2024 10:45:36 America/Bogota] PHP   5. Composer\Autoload\ClassLoader->loadClass($class = 'App\\Config\\Security') C:\wamp64\www\portafolio\authentication\Backend\src\Models\UserModel.php:138
+[03-Jun-2024 10:45:36 America/Bogota] PHP   6. Composer\Autoload\{closure:C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:575-577}($file = 'C:\\wamp64\\www\\portafolio\\authentication\\Backend\\vendor\\composer/../../src/Config/Security.php') C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:427
+[03-Jun-2024 10:45:36 America/Bogota] PHP   7. include() C:\wamp64\www\portafolio\authentication\Backend\vendor\composer\ClassLoader.php:576
+[03-Jun-2024 10:45:36 America/Bogota] PHP   8. session_start() C:\wamp64\www\portafolio\authentication\Backend\src\Config\Security.php:11
+[03-Jun-2024 10:45:36 America/Bogota] Conexion Exitosa
+[03-Jun-2024 10:45:55 America/Bogota] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:24
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require()
+#1 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 24
+[03-Jun-2024 10:46:11 America/Bogota] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:23
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require()
+#1 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 23
+[03-Jun-2024 10:46:17 America/Bogota] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php:23
+Stack trace:
+#0 C:\wamp64\www\portafolio\authentication\Backend\public\index.php(25): require()
+#1 {main}
+  thrown in C:\wamp64\www\portafolio\authentication\Backend\src\Routes\task.php on line 23
