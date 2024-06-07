@@ -8,6 +8,7 @@ use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 use Firebase\JWT\ExpiredException;
 
+
 session_start();
 
 
@@ -15,6 +16,9 @@ class Security
 {
 
     private static $jwt_data;
+    private static $_uri = array();
+    private static $_action = array();
+
 
     final public static function secretKey(): string
     {
@@ -130,5 +134,15 @@ class Security
         session_start();
         session_unset();
         session_destroy();
+    }
+
+    final public static function add($uri, $action = null) 
+    {
+        self::$_uri[] = '/' . trim($uri, '/');
+
+        if ($action != null) 
+        {
+            self::$_action[] = $action;
+        }
     }
 }

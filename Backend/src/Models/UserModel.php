@@ -169,7 +169,6 @@ class UserModel extends ConnectionDB
                 }
             }
         } catch (\PDOException $pdo) {
-            //throw $th;
             error_log("UserModel::Login ->" . $pdo);
             die(json_encode(ResponseHttp::status201()));
         }

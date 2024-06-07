@@ -9,7 +9,6 @@ $headers = getallheaders();
 
 // Verificar si el token está presente en los encabezados
 if (!isset($headers['Authorization']) || $headers['Authorization'] == null) {
-    // El token no está presente en los encabezados
     echo(json_encode(ResponseHttp::status401(401, 'Unauthorized', 'Token missing')));
     exit();
 }
@@ -17,7 +16,7 @@ if (!isset($headers['Authorization']) || $headers['Authorization'] == null) {
 
 // Extraer el token de los encabezados
 $token = $headers['Authorization'];
-$validateJwt = Security::validateTokenJwt($token,Security::secretKey());
+$validateJwt = Security::validateTokenJwt($token, Security::secretKey());
 
 $method = strtolower($_SERVER['REQUEST_METHOD']);
 $route = isset($_GET['route']) ? $_GET['route'] : null;
@@ -34,6 +33,5 @@ if ($data === null && json_last_error() !== JSON_ERROR_NONE) {
 $task = new TaskController($method,$route,$params,$data,$headers);
 $task->taskSave('task/',$data);
 $task->deleteTask('task/deleteTask/');
-
 
 ?>

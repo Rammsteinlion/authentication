@@ -31,7 +31,6 @@ class TaskController
 
     final public function taskSave(string $endPoint): void
     {
-
         if (self::$method == 'post' && $endPoint == self::$route) {
             foreach (self::$data as $key => $value) {
                 if ($value === '' || $value === null) {
@@ -42,23 +41,28 @@ class TaskController
             new TaskModel(self::$data);
             echo json_encode(TaskModel::postSaveTask());
         }
+        exit;
     }
 
     final public function deleteTask(string $endPoint): void
     {
         try {
-            if (self::$method == 'post' && $endPoint == self::$route) {
-                foreach (self::$data as $key => $value) {
-                    if ($value === '' || $value === null) {
-                        echo json_encode(ResponseHttp::status400('Todos los campos son necesarios'));
-                        break;
-                    }
-                };
-                new TaskModel(self::$data);
-                echo json_encode(TaskModel::postSaveTask());
+            
+            if (self::$method == 'delete' && $endPoint == self::$route) {
+                $taskId = self::$data['id'] ?? null;
+                var_dump($taskId);
+                if ($taskId === null) {
+                    echo json_encode(ResponseHttp::status400('ID de la tarea es necesario'));
+                    return;
+                }
+                
+                TaskModel::setTaskId($taskId);
+                echo json_encode(TaskModel::postDeleteTask());
             }
+            exit;
         } catch (\PDOException $pdo) {
             echo json_encode(ResponseHttp::status400('Error'));
         }
     }
+
 }

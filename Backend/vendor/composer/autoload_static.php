@@ -84,14 +84,28 @@ class ComposerStaticInite8a2b23297c7eb0e4457232751cdbd4b
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'B' => 
+        array (
+            'Bramus' => 
+            array (
+                0 => __DIR__ . '/..' . '/bramus/router/src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'App\\Config\\ErrorLog' => __DIR__ . '/../..' . '/src/Config/ErrorLog.php',
         'App\\Config\\ResponseHttp' => __DIR__ . '/../..' . '/src/Config/ResponseHttp.php',
         'App\\Config\\Security' => __DIR__ . '/../..' . '/src/Config/Security.php',
+        'App\\Controllers\\TaskController' => __DIR__ . '/../..' . '/src/Controllers/TaskController.php',
         'App\\Controllers\\UserController' => __DIR__ . '/../..' . '/src/Controllers/UserController.php',
         'App\\DB\\ConnectionDB' => __DIR__ . '/../..' . '/src/DB/ConnectionDB.php',
         'App\\DB\\Sql' => __DIR__ . '/../..' . '/src/DB/Sql.php',
+        'App\\Models\\TaskModel' => __DIR__ . '/../..' . '/src/Models/TaskModel.php',
+        'App\\Models\\UserModel' => __DIR__ . '/../..' . '/src/Models/UserModel.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Bramus\\Router\\Router' => __DIR__ . '/..' . '/bramus/router/src/Bramus/Router/Router.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
         'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
@@ -225,6 +239,7 @@ class ComposerStaticInite8a2b23297c7eb0e4457232751cdbd4b
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInite8a2b23297c7eb0e4457232751cdbd4b::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInite8a2b23297c7eb0e4457232751cdbd4b::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite8a2b23297c7eb0e4457232751cdbd4b::$prefixesPsr0;
             $loader->classMap = ComposerStaticInite8a2b23297c7eb0e4457232751cdbd4b::$classMap;
 
         }, null, ClassLoader::class);

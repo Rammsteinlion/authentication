@@ -2,36 +2,45 @@
 
 use App\Config\ErrorLog;
 use App\Config\ResponseHttp;
-
+use App\Config\Router;
+use App\Controllers\TaskController;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 ResponseHttp::headerHttpDev($_SERVER['REQUEST_METHOD']);
 ErrorLog::activateErrorLog();
 
+// Agregar rutas de forma estática
+Router::add('auth', function() {
+    require dirname(__DIR__) . '/src/Routes/auth.php';
+});
 
-if (isset($_GET['route'])) {
-    $url = explode('/', $_GET['route']);
-    $list = ['auth', 'user','task'];
-    $file = dirname(__DIR__) . '/src/Routes/' . $url[0] . '.php';
+Router::add('user', function() {
+    require dirname(__DIR__) . '/src/Routes/user.php';
+});
 
-    if (!in_array($url[0],$list)) {
-        echo (json_encode(ResponseHttp::status400()));
-        error_log('No existe la ruta');
-        exit;
-    }
+Router::add('task', function() {
+    require dirname(__DIR__) . '/src/Routes/task.php';
+});
 
-    if (is_readable($file)) {
-        require $file;
-        exit;
-    } else {
-        echo (json_encode(ResponseHttp::status400()));
-        exit;
-    }
+$method = strtolower($_SERVER['REQUEST_METHOD']);
+$route = isset($_GET['route']) ? $_GET['route'] : null;
+$params = explode('/', $route);
+$input = file_get_contents('php://input');
+$data = json_decode($input, true);
+$headers = getallheaders();
 
-} else {
-    echo (json_encode(ResponseHttp::status404()));
-    exit;
-}
+// Router::add('task/save', function() use ($method, $route, $params, $data, $headers) {
+//     $taskController = new TaskController($method, $route, $params, $data, $headers);
+//     $taskController->taskSave();
+// });
 
+Router::add('task/deleteTask/', function() use ($method, $route, $params, $data, $headers) {
+    $taskController = new TaskController($method, $route, $params, $data, $headers);
+    $taskController->deleteTask('task/deleteTask/');
+});
 
+// Ejecutar el router de forma estática
+Router::run();
+
+?>
